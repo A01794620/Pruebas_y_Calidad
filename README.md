@@ -25,3 +25,18 @@ The process of building a valid deliverable is described in the next main steps:
 
 ### Products deliverables.
 The following deliverables are the main parts of the final solution.
+
+List of programs for the Programming Individual Exercise: 4.2.1.
+
+* **Program #1. Computing Statistics:**: an applicative that returns basic statistics from prefilled population. 
+                The algorithms used only language primitives and were built from scratch.
+                The statistical algorithms were methodologically based on the material of 
+                Bruce, Bruce & Gedeck (2022, pp. 8-15).
+
+* **Program #2. Number Base Converter:**: an applicative that converts long decimal numbers into their hexadecimal  
+                and binary representations.
+                The number conversions algorithms were methodologically based on the material of
+                Morris & Ciletti (2013, pp. 6-11).
+
+* **Program #3. Word Counting**: a program which takes a list of prefilled words and counts the coincidences of
+                each of them. Finally return the list on descending order.
