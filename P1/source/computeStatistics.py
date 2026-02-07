@@ -263,11 +263,6 @@ if __name__ == '__main__':
 
         file_to_proces = sys.argv[1]
 
-        #print("???????????????")
-        #print(CommonFxs.GlobalSettings.RESOURCE_PATH)
-        #print(file_to_proces)
-        #print("???????????????")
-
         file_lines = FileM.FileManager.read_from_file(
             f"..\\{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
             EXERCISE_ID, file_folder)

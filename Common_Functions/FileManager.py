@@ -38,11 +38,6 @@ class FileManager:
         Returns:
             string[]: The content of the file in lines separation.
         """
-        #print("!!!!!!!!!!!!!")
-        #print(file_path_)
-        #print(exercise_id_)
-        #print(file_folder)
-        #print("!!!!!!!!!!!!!")
 
         source_file_lines = []
 
