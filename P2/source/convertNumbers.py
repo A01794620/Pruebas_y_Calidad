@@ -249,8 +249,6 @@ if __name__ == '__main__':
         FILE_PATH = (str(CommonFxs.GlobalSettings.RESOURCE_PATH) + "" +
                       str(EXERCISE_ID) + "\\" + str(file_to_proces))
 
-        # file_lines = FileM.FileManager.read_from_file(FILE_PATH, EXERCISE_ID)
-
         file_lines = FileM.FileManager.read_from_file(
             f"{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
             file_folder)
