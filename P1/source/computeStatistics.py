@@ -271,7 +271,7 @@ if __name__ == '__main__':
         file_to_proces = sys.argv[1]
 
         file_lines = FileM.FileManager.read_from_file(
-            f"..\\{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
+            f"{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
             EXERCISE_ID, file_folder)
 
         number_list = file_lines_to_float(file_lines, True)
