@@ -45,7 +45,12 @@ List of programs for the Programming Individual Exercise: 4.2.1.
 
 The GitHub repository has the following structure.
 
-| A    | B   |
-| ---  | --- |
-|  A1  | A2  |
-|  B1  | B2  |
+
+| A01794620_A4_2     | Main directory                                                                                                                                    |   |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| **P** like folders | Each of the solutions is located on its own P (from program) directory. Inside every P directory there is an identical per solution substructure. |   |
+|                    | results                                                                                                                                           |   |
+|                    | source                                                                                                                                            |   |
+|                    | test                                                                                                                                              |   |
+| Common_Functions   | Folder that holds helpers and auxiliary classes that support the solution holistically.                                                           |   |
+| Test_Cases         | Bat files that automate the QA testing processes.                                                                                                 |   |
