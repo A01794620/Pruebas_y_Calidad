@@ -79,13 +79,20 @@ def variance(number_list_):
     """
     mean_ = mean(number_list_)
     variance_sum = 0.0
+    nil_counter = 0
 
     for number in number_list_:
+
         if not math.isnan(number):
             variance_item = (number - mean_) ** 2
             variance_sum += variance_item
+        else:
+            nil_counter = nil_counter + 1
+            #print(f"^{nil_counter}^")
 
-    variance_ = variance_sum / (len(number_list_) -1)
+    valid_observations = len(number_list_) - nil_counter - 1
+    # variance_ = variance_sum / (len(number_list_) -1)
+    variance_ = variance_sum / valid_observations
     return variance_
 
 
@@ -272,5 +279,10 @@ if __name__ == '__main__':
         if len(number_list)>=1:
             file_source_name = file_to_proces.replace(".", "_")
             print_results(EXERCISE_ID, number_list, init_time, file_source_name, True)
+
+        #for i in number_list:
+        #    if math.isnan(i):
+        #        print(f"Number:= {i}")
+
     else:
         PrintHelp.PrinterHelper.print_help(file_path, file_folder)
