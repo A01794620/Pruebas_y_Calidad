@@ -279,6 +279,8 @@ if __name__ == '__main__':
         if len(number_list)>=1:
             file_source_name = file_to_proces.replace(".", "_")
             print_results(EXERCISE_ID, number_list, init_time, file_source_name, True)
+        else:
+            PrintHelp.PrinterHelper.print_error(f"It looks like this file is empty:\n\t{file_to_proces}")
 
         #for i in number_list:
         #    if math.isnan(i):

@@ -110,9 +110,14 @@ class FileManager:
         elif exercise_id_ == 3:
             file_name_to_write = GlobalSettings.OUTPUT_FILE_WORD_COUNT
 
+        relative_path = ""
+
+        if GlobalSettings.ON_QA_MODE:
+            relative_path = "../"
+
         current_utc_seconds = TimeManager.get_utc()
         current_utc_seconds = str(current_utc_seconds).replace(".", "_")
-        plain_filename = ("../" + GlobalSettings.RESULT_PATH + "\\" + file_source_name +
+        plain_filename = (relative_path + GlobalSettings.RESULT_PATH + "\\" + file_source_name +
                           "\\" + current_utc_seconds + "\\" + file_name_to_write)
 
         return Path(plain_filename)

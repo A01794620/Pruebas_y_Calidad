@@ -34,6 +34,7 @@ class GlobalSettings:
         return self.VER
 
     # GLobal settings to be used across all modules.
+    ON_QA_MODE = False
     VER = "1.0"
     WORD_LEN_DEFAULT = 32
     RESOURCE_PATH = "tests\\"

@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 set "working_dir=C:\AlgoriML\docs\TecMon\cursos\TC4017\code\A01794620_A4_2\"
 :: Exercises to be Tested
-set "len_exercises=0"
+set "len_exercises=1"
 
 set "exes[0]=computeStatistics.py"
 set "exes[1]=convertNumbers.py"
