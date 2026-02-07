@@ -118,13 +118,9 @@ if __name__ == '__main__':
 
         file_to_proces = sys.argv[1]
 
-        #file_lines = FileM.FileManager.read_from_file(
-        #    f"{CommonFxs.GlobalSettings.RESOURCE_PATH}"
-        #    f"{EXERCISE_ID}\\{file_to_proces}", EXERCISE_ID)
-
         file_lines = FileM.FileManager.read_from_file(
             f"{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
-            EXERCISE_ID, file_folder)
+            file_folder)
 
         len_word_counter_ , word_counter_text_ = count_words(file_lines)
 
@@ -132,7 +128,6 @@ if __name__ == '__main__':
             file_source_name = file_to_proces.replace(".", "_")
             print_results(EXERCISE_ID, len_word_counter_, word_counter_text_, init_time,
                           file_source_name, True)
-        else:
-            PrintHelp.PrinterHelper.print_error(f"It looks like this file is empty:\n\t{file_to_proces}")
+
     else:
         PrintHelp.PrinterHelper.print_help(file_path, file_folder)

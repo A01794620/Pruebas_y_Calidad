@@ -272,19 +272,12 @@ if __name__ == '__main__':
 
         file_lines = FileM.FileManager.read_from_file(
             f"{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
-            EXERCISE_ID, file_folder)
+            file_folder)
 
         number_list = file_lines_to_float(file_lines, True)
 
         if len(number_list)>=1:
             file_source_name = file_to_proces.replace(".", "_")
             print_results(EXERCISE_ID, number_list, init_time, file_source_name, True)
-        else:
-            PrintHelp.PrinterHelper.print_error(f"It looks like this file is empty:\n\t{file_to_proces}")
-
-        #for i in number_list:
-        #    if math.isnan(i):
-        #        print(f"Number:= {i}")
-
     else:
         PrintHelp.PrinterHelper.print_help(file_path, file_folder)

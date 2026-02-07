@@ -11,10 +11,8 @@
  @Date
 """
 # External Libraries
-import os
-from pathlib import Path
-from colorama import init, Fore
 
+from colorama import init, Fore
 from Common_Functions.GlobalSettings import GlobalSettings
 
 init(autoreset=True)

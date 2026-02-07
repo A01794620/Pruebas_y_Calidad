@@ -216,7 +216,8 @@ def print_results(exercise_id_, dec_int_number_, init_time_, file_source_name_, 
                              "Hexadecimal:\t" + hexa_representation + "\t" + "Binary:\t" +
                              str(bin_representation) + "\n")
         else:
-            line_to_print = str(item_id) + str(item_id) + "\tDecimal:\tn/a\tHexadecimal:\t n/a\t\tBinary:\tn/a\n"
+            line_to_print = (str(item_id) + str(item_id) +
+                             "\tDecimal:\tn/a\tHexadecimal:\t n/a\t\tBinary:\tn/a\n")
 
         results_to_print = results_to_print + line_to_print
 
@@ -252,15 +253,13 @@ if __name__ == '__main__':
 
         file_lines = FileM.FileManager.read_from_file(
             f"{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
-            EXERCISE_ID, file_folder)
+            file_folder)
 
         number_list = file_lines_to_decimal_int(file_lines)
 
         if len(number_list) >= 1:
             file_source_name = file_to_proces.replace(".", "_")
             print_results(EXERCISE_ID, number_list, init_time, file_source_name,True)
-        else:
-            PrintHelp.PrinterHelper.print_error(f"It looks like this file is empty:\n\t{file_to_proces}")
 
     else:
         PrintHelp.PrinterHelper.print_help(file_path, file_folder)

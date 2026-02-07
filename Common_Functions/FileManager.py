@@ -27,13 +27,12 @@ class FileManager:
     """
 
     @staticmethod
-    def read_from_file(file_path_, exercise_id_, file_folder):
+    def read_from_file(file_path_, file_folder):
         """
         Read the context of a plain file.
 
         Args:
             file_path_ (strig): File path to be read.
-            exercise_id_ (int): The exercise ID as reference for the path file.
             file_folder (Path): Path to the folder where the file is located.
         Returns:
             string[]: The content of the file in lines separation.
@@ -56,10 +55,11 @@ class FileManager:
                 error_to_print = ("There is a system problem to read the file:'" +
                                   file_path_ + "'\nDouble Check the file path and try again.")
 
-            error_to_print = error_to_print + "\nRemember that the file might be located in the following " + \
-                             f"path to be read by the program:\n" + \
-                             f"{Fore.MAGENTA}{file_folder}\\" + GlobalSettings.RESOURCE_PATH + \
-                             " <--\n" + f"{Fore.RED} "
+            error_to_print = error_to_print + ("\nRemember that the file might be located in" +
+                                               " the following path to be read by the " +
+                                               "program:\n" + f"{Fore.MAGENTA}{file_folder}\\" +
+                                               GlobalSettings.RESOURCE_PATH + " <--\n" +
+                                               f"{Fore.RED} ")
 
             PrinterHelper.print_error(error_to_print)
 
