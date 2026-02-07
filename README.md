@@ -40,3 +40,12 @@ List of programs for the Programming Individual Exercise: 4.2.1.
 
 * **Program #3. Word Counting**: a program which takes a list of prefilled words and counts the coincidences of
                 each of them. Finally return the list on descending order.
+
+### Structure of the Project.
+
+The GitHub repository has the following structure.
+
+| A    | B   |
+| ---  | --- |
+|  A1  | A2  |
+|  B1  | B2  |
