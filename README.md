@@ -68,13 +68,13 @@ _Image 1. First Pylint round._
 The previous shows the result on the first program. The other two programs have similar kind of inconsistencies.
 The following image resumes in one single picture two of them.
 
-![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_02.png)
+![pic_pylint_02.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_02.png)
 _Image 2. Second and Third program initial round of testing by using Pylint static QA checker._
 
 Final Run after fixing inconsistencies and bugs.
 Then after many tweaks the investigator can obtain the grade of ten pursued, Image 3 shows that moment.
 
-![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_03.png)
+![pic_pylint_03.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_03.png)
 _Image 3. Pylint test passed._
 
 On Image 3 the [A] section displays the testing phase in the main solution files, while the B part is related to extended miscellaneous classes.
@@ -103,22 +103,21 @@ testing system as following:
 
 * Program 1 report folder [Here](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P1/results).
 * Program 2 report folder [Here](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P2/results)
-* Program 3 report folder [Go](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P3/results). 
+* Program 3 report folder [Here](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P3/results). 
 
-![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_04.png)
-Image 4. Assess Cases successful passed on first program.
+![pic_pylint_04.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_04.png)
+_Image 4. Assess Cases successful passed on first program._
 
-![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_05.png)
-Image . 5. Assess Cases successful passed on second program.
+![pic_pylint_05.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_05.png)
+_Image 5. Assess Cases successful passed on second program._
 
-![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_06.png)
-Image 6. Assess Cases successful passed on third program.
+![pic_pylint_06.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_06.png)
+_Image 6. Assess Cases successful passed on third program._
 
+## Negative -Intended- Test Cases.
+Inside the cases it is possible to see that even when induvial lines inside the files were wrong
+(by format, data type, or absence of data), the three solutions supported in a robust fashion those obstacles.
+The properly handling inconsistencies in data are displayed on next image.
 
-Negative -Intended- Test Cases.
-Inside the cases it is possible to see that even when induvial lines inside the files were wrong (by format, data type, or absence of data), the three solutions supported in a robust fashion those obstacles.
-
-
-Properly Handling inconsistencies in data
-Image 3. Assess Cases successful passed.
-Trying Wrong Files paths.
+![pic_pylint_07.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_07.png)
+_Image 7. Trying the robustness of programs using wrong files paths._
