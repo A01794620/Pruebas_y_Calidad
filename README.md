@@ -121,3 +121,7 @@ The properly handling inconsistencies in data are displayed on next image.
 
 ![pic_pylint_07.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_07.png)
 _Image 7. Trying the robustness of programs using wrong files paths._
+
+## APA References:
+* Bruce, P., Bruce, A. & Gedeck, P. (2022). _Estadística Práctica para Ciencia de Datos con R y Python._ (2nd. ed.) (F. Martínez, Trans.). Marcombo.
+* Morris, M. & Ciletti, M. (2013). _Diseño Digital._ (5th. ed.) (R. Navarro, Trans.). Pearson.
