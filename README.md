@@ -63,20 +63,19 @@ The Initial Run yielded inconsistencies that the investigator must debug, correc
 This image displayed the errors found in the first documented run.
 
 ![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_01.png)
-Image 1. First Pylint round.
+_Image 1. First Pylint round._
 
 The previous shows the result on the first program. The other two programs have similar kind of inconsistencies.
 The following image resumes in one single picture two of them.
 
 ![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_02.png)
-
-Image 2. Second and Third program initial round of testing by using Pylint static QA checker.
+_Image 2. Second and Third program initial round of testing by using Pylint static QA checker._
 
 Final Run after fixing inconsistencies and bugs.
 Then after many tweaks the investigator can obtain the grade of ten pursued, Image 3 shows that moment.
 
 ![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_03.png)
-Image 3. Pylint test passed.
+_Image 3. Pylint test passed._
 
 On Image 3 the [A] section displays the testing phase in the main solution files, while the B part is related to extended miscellaneous classes.
 Having 10.0 grade was a back-and-forth process, a big learning on how to use test static code tools. 
@@ -88,7 +87,7 @@ Majority of the issues were related to three main problems:
 3.	In minor degree but still presented the library conflicts with the common libraries done ad-hoc for the project (Common_Functions), here the strategy of disabling both: wrong-import-position and import-error per line scope fixed the issues.
 4.	Lastly, one coincidence on a function with too many arguments, even when recognizing that many parameters in a procedure call is not advisable, on this unique case, and only for just one extra variable in the line, the investigator took the call of adding the exclusion of the hint by commanding on disabling R0913 and the  R0917 codes. 
 
-A full copy of Pylint can be found here.
+_A full copy of Pylint can be found [here](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/Test_Cases/results/Test_Pylint_Passed.txt)_
 
 ## Test Cases:
 The test cases are products of too much of back-and-forth between run, fix and rerun.
