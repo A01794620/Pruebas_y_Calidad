@@ -129,13 +129,13 @@ _Image 5. Assess cases successful passed on second program._
 
 On Image 5, there are three zones: i. Zone [A] shows the first part of a long result-set. ii. Then [B] part is the 'tail' of 
 results, including important information like the elapsed time in run the computations plus also the one which took on paint 
-in screen the results (this second extremely more time-consuming than the former).
+in screen plus saving the results at file (this second extremely more time-consuming than the former).
 
 ![pic_pylint_06.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_06.png)
 _Image 6. Assess cases successful passed on third program._
 
 On Image 6 [A] section is the output of the program in a specific case while [B] is the tail of the full response.
-The output of this program displayed (the second) normally are long.
+The output of this program displayed normally is long.
 
 ## Negative -Intended- Test Cases.
 
