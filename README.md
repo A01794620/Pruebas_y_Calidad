@@ -100,9 +100,10 @@ Majority of the issues were related to four main problems:
 3.	In minor degree, but found, the imports conflicts with the common libraries done ad-hoc for the project (Common_Functions); here the strategy of disabling both: wrong-import-position and import-error per line scope fixed the issues.
 4.	Lastly, one coincidence on a function with too many arguments, even when recognizing that many parameters in a procedure call is not advisable, on this unique case, and only for just one extra variable in the line, the investigator took the call of adding the exclusion of the hint by commanding on disabling _R0913_ and _R0917_ codes.
 
-_A full copy of Pylint can be found [here](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/Test_Cases/results/Test_Pylint_Passed.txt)_
+_A full copy of Pylint results can be found [here](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/Test_Cases/results/Test_Pylint_Passed.txt)_
 
 ## Test Cases:
+
 The test cases are products of too much of back-and-forth between run, fix and rerun.
 Nevertheless, in the end it is possible to obtain and deliver a set of battery test cases.
 The process was improved until it reached automatic batch processing.
@@ -120,16 +121,27 @@ testing system. The list as following:
 ![pic_pylint_04.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_04.png)
 _Image 4. Assess cases successful passed on first program._
 
+On Image 4, the [A] side shows a properly parsed file while the [B] zone displays how the program detects few lines
+with inconsistencies, but even though it keeps running until the end of the file in process.
+
 ![pic_pylint_05.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_05.png)
 _Image 5. Assess cases successful passed on second program._
+
+On Image 5, there are three zones: i. Zone [A] shows the first part of a long result-set. ii. Then [B] part is the 'tail' of 
+results, including important information like the elapsed time in run the computations plus also the one which took on paint 
+in screen the results (this second extremely more time-consuming than the former).
 
 ![pic_pylint_06.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_06.png)
 _Image 6. Assess cases successful passed on third program._
 
+On Image 6 [A] section is the output of the program in a specific case while [B] is the tail of the full response.
+The output of this program displayed (the second) normally are long.
+
 ## Negative -Intended- Test Cases.
 
-Inside the cases, it is possible to check, that even when individual lines inside the files were wrong
-(by format, data-type, or absence of data), the three solutions supported in a robust fashion those obstacles.
+Inside the cases, it is possible to check, that even when wrong files path were provided, the three solutions are robust, 
+checking the veracity of the path/file, and gracefully handling any scenario derived.
+So, the three solutions supported in a robust fashion those obstacles.
 
 The properly handling inconsistencies in data are displayed on next image.
 
