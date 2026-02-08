@@ -82,8 +82,7 @@ The following image resumes in one single picture two of them.
 _Image 2. Second and third program initial round of testing by using Pylint static QA checker._
 
 > [!NOTE]
-> Final run, after fixing inconsistencies and bugs: after several tweaks, 
-> the investigator can obtain the grade often pursued, Image 3 shows that moment.
+> Final run, after fixing inconsistencies and bugs: after several tweaks, the investigator can obtain the grade often pursued, Image 3 shows that moment.
 
 
 ![pic_pylint_03.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_03.png)
