@@ -58,26 +58,28 @@ The GitHub repository has the following structure.
 
 ### Quality Assurance using Pylint.
 
-The first set of documented tests are the ones done with Pylint.
-
+The first set of documented tests are the ones done with `Pylint`.
 The Initial Run yielded inconsistencies that the investigator must debug, correct and fix.
-
 This image displayed the errors found in the first documented run.
 
 ![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_01.png)
+Image 1. First Pylint round.
 
-Image 1. First Pylint round. 
+The previous shows the result on the first program. The other two programs have similar kind of inconsistencies.
+The following image resumes in one single picture two of them.
+
+![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_02.png)
+
+Image 2. Second and Third program initial round of testing by using Pylint static QA checker.
 
 Final Run after fixing inconsistencies and bugs.
 Then after many tweaks the investigator can obtain the grade of ten pursued.
-
 Image 2 shows that moment.
-
 Image 2. Pylint test passed.
-
 Majority of the issues were related to three main problems:
 
 1.	Name of the file. By introducing the clause of disable the C0103 code check (the snake type of files) the issue was sorted.
 2.	Lines were too long; those were easily fixed by breaking the lines.
 3.	In minor degree but still presented the library conflicts with the common libraries done ad-hoc for the project (Common_Functions), here the strategy of disabling both: wrong-import-position and import-error per line scope fixed the issues.
 4.	Lastly, one coincidence on a function with too many arguments, even when recognizing that many parameters in a procedure call is not advisable, on this unique case, and only for just one extra variable in the line, the investigator took the call of adding the exclusion of the hint by commanding on disabling R0913 and the  R0917 codes.
+5. 
