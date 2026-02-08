@@ -56,7 +56,7 @@ The GitHub repository has the following structure.
 | Test_Cases                                 | Bat files that automate the QA testing processes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | [Go](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/Test_Cases)       | `idem`                                                                    | `idem`                                                                    |
 
 
-### Quality Assurance using Pylint.
+## Quality Assurance using Pylint.
 
 The first set of documented tests are the ones done with `Pylint`.
 The Initial Run yielded inconsistencies that the investigator must debug, correct and fix.
@@ -86,5 +86,18 @@ Majority of the issues were related to three main problems:
 1.	Name of the file. By introducing the clause of disable the C0103 code check (the snake type of files) the issue was sorted.
 2.	Lines were too long; those were easily fixed by breaking the lines.
 3.	In minor degree but still presented the library conflicts with the common libraries done ad-hoc for the project (Common_Functions), here the strategy of disabling both: wrong-import-position and import-error per line scope fixed the issues.
-4.	Lastly, one coincidence on a function with too many arguments, even when recognizing that many parameters in a procedure call is not advisable, on this unique case, and only for just one extra variable in the line, the investigator took the call of adding the exclusion of the hint by commanding on disabling R0913 and the  R0917 codes.
-5. 
+4.	Lastly, one coincidence on a function with too many arguments, even when recognizing that many parameters in a procedure call is not advisable, on this unique case, and only for just one extra variable in the line, the investigator took the call of adding the exclusion of the hint by commanding on disabling R0913 and the  R0917 codes. 
+
+A full copy of Pylint can be found here.
+
+## Test Cases:
+The test cases are products of too much of back-and-forth between run, fix and rerun.
+Nevertheless, in the end it is possible to obtain and deliver a set of battery test cases.
+The process was improved until it reached automatic batch processing.
+The next image exhibits the moment when all test cases are successfully passed, all at once.
+
+## Positive Test Cases.
+
+Image 3. Assess Cases successful passed.
+Negative -Intended- Test Cases.
+Inside the cases it is possible to see that even when induvial lines inside the files were wrong (by format, data type, or absence of data), the three solutions supported in a robust fashion those obstacles.
