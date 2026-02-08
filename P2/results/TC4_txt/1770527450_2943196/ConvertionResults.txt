@@ -40,5 +40,5 @@
 38	Decimal:0	Hexadecimal:	00000000	Binary:	00000000000000000000000000000000
 39	Decimal:-6	Hexadecimal:	FFFFFFFA	Binary:	11111111111111111111111111111010
 4040	Decimal:	n/a	Hexadecimal:	 n/a		Binary:	n/a
-Elapsed Execution Time: 0.0025 seconds
+Elapsed Execution Time: 0.0017 seconds
 ================================================================================
