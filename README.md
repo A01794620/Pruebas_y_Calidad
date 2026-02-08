@@ -73,9 +73,14 @@ The following image resumes in one single picture two of them.
 Image 2. Second and Third program initial round of testing by using Pylint static QA checker.
 
 Final Run after fixing inconsistencies and bugs.
-Then after many tweaks the investigator can obtain the grade of ten pursued.
-Image 2 shows that moment.
-Image 2. Pylint test passed.
+Then after many tweaks the investigator can obtain the grade of ten pursued, Image 3 shows that moment.
+
+![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_03.png)
+Image 3. Pylint test passed.
+
+On Image 3 the [A] section displays the testing phase in the main solution files, while the B part is related to extended miscellaneous classes.
+Having 10.0 grade was a back-and-forth process, a big learning on how to use test static code tools. 
+
 Majority of the issues were related to three main problems:
 
 1.	Name of the file. By introducing the clause of disable the C0103 code check (the snake type of files) the issue was sorted.
