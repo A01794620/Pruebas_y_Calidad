@@ -97,6 +97,28 @@ The next image exhibits the moment when all test cases are successfully passed, 
 
 ## Positive Test Cases.
 
-Image 3. Assess Cases successful passed.
+The following three images document one positive case per exercise, but the whole run result can be checked,
+as described on Table 1 on each specific program `result` folder in a granulated fashion as run on the local
+testing system as following:
+
+* Program 1 report folder [Here](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P1/results).
+* Program 2 report folder [Here](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P2/results)
+* Program 3 report folder [Go](https://github.com/A01794620/Pruebas_y_Calidad/tree/main/P3/results). 
+
+![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_04.png)
+Image 4. Assess Cases successful passed on first program.
+
+![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_05.png)
+Image . 5. Assess Cases successful passed on second program.
+
+![pic_pylint_01.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_06.png)
+Image 6. Assess Cases successful passed on third program.
+
+
 Negative -Intended- Test Cases.
 Inside the cases it is possible to see that even when induvial lines inside the files were wrong (by format, data type, or absence of data), the three solutions supported in a robust fashion those obstacles.
+
+
+Properly Handling inconsistencies in data
+Image 3. Assess Cases successful passed.
+Trying Wrong Files paths.
