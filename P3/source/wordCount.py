@@ -95,7 +95,7 @@ def print_results(exercise_id_, len_word_counter, word_counter_text, init_time_,
     """
     execution_time = TimeM.TimeManager.get_execution_time(init_time_, TimeM.TimeManager.get_time())
 
-    results_to_print = word_counter_text + "Grand Total (Uniques):\t" +  str(len_word_counter) + "\n"
+    results_to_print = word_counter_text + "Grand Total (Unique):\t" +  str(len_word_counter) + "\n"
     results_to_print = results_to_print + "Grand Total (Original):\t" + str(word_global_counter)
 
     PrintHelp.PrinterHelper.print_results(results_to_print)

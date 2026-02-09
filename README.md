@@ -148,6 +148,11 @@ The properly handling inconsistencies in data are displayed on next image.
 ![pic_pylint_07.png](https://github.com/A01794620/Pruebas_y_Calidad/blob/main/pics/pic_pylint_07.png)
 _Image 7. Trying the robustness of programs using wrong files paths._
 
+> [!IMPORTANT]
+> **Addendum**: last update on third program includes two counts: one is the original file lines count,
+meaning original number of words (non-unique) and the other total is the one making unique counts.
+Both are properly labeled in the program, respectively as: Grand Total (Uniques) and Grand Total (Original).
+
 ## APA References:
 * Bruce, P., Bruce, A. & Gedeck, P. (2022). _Estadística Práctica para Ciencia de Datos con R y Python._ (2nd. ed.) (F. Martínez, Trans.). Marcombo.
 * Morris, M. & Ciletti, M. (2013). _Diseño Digital._ (5th. ed.) (R. Navarro, Trans.). Pearson.
