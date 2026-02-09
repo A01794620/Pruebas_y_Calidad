@@ -216,7 +216,7 @@ def print_results(exercise_id_, dec_int_number_, init_time_, file_source_name_, 
                              "Hexadecimal:\t" + hexa_representation + "\t" + "Binary:\t" +
                              str(bin_representation) + "\n")
         else:
-            line_to_print = (str(item_id) + str(item_id) +
+            line_to_print = (str(item_id) +
                              "\tDecimal:\tn/a\tHexadecimal:\t n/a\t\tBinary:\tn/a\n")
 
         results_to_print = results_to_print + line_to_print

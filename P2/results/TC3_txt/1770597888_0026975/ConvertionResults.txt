@@ -199,5 +199,5 @@
 197	Decimal:16	Hexadecimal:	10	Binary:	10000
 198	Decimal:17	Hexadecimal:	11	Binary:	10001
 199	Decimal:4	Hexadecimal:	4	Binary:	100
-Elapsed Execution Time: 0.0019 seconds
+Elapsed Execution Time: 0.0119 seconds
 ================================================================================

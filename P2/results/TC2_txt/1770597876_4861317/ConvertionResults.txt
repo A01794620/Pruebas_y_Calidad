@@ -199,5 +199,5 @@
 197	Decimal:4238091	Hexadecimal:	40AB0B	Binary:	10000001010101100001011
 198	Decimal:7093069	Hexadecimal:	6C3B4D	Binary:	11011000011101101001101
 199	Decimal:39	Hexadecimal:	27	Binary:	100111
-Elapsed Execution Time: 0.0020 seconds
+Elapsed Execution Time: 0.0120 seconds
 ================================================================================
