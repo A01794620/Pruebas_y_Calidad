@@ -486,6 +486,7 @@ equipped: 1
 src: 1
 gradually: 1
 placing: 1
-Grand Total:	487
-Elapsed Execution Time: 0.0010 seconds
+Grand Total (Uniques):	487
+Grand Total (Original):	500
+Elapsed Execution Time: 0.0012 seconds
 ================================================================================

@@ -143,6 +143,7 @@ remained: 1
 icons: 1
 excessive: 1
 jon: 1
-Grand Total:	144
-Elapsed Execution Time: 0.0007 seconds
+Grand Total (Uniques):	144
+Grand Total (Original):	184
+Elapsed Execution Time: 0.0017 seconds
 ================================================================================

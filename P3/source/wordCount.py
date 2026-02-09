@@ -58,8 +58,10 @@ def count_words(file_lines_):
 
     word_counter = {}
     word_counter_text = ""
+    word_global_counter = 0
 
     for file_line in file_lines_:
+        word_global_counter = word_global_counter + 1
         if file_line in word_counter:
             word_counter[file_line] += 1
         else:
@@ -70,11 +72,11 @@ def count_words(file_lines_):
     for key, value in word_counter_sorted.items():
         word_counter_text = word_counter_text + f"{key}: {value}\n"
 
-    return len(word_counter_sorted), word_counter_text
+    return len(word_counter_sorted), word_counter_text, word_global_counter
 
 # pylint: disable=R0913, R0917
 def print_results(exercise_id_, len_word_counter, word_counter_text, init_time_,
-                  file_source_name_, disk_safe=True):
+                  file_source_name_, word_global_counter,disk_safe=True):
     """
     Print the computations results.
 
@@ -85,6 +87,7 @@ def print_results(exercise_id_, len_word_counter, word_counter_text, init_time_,
         the print raw material.
         init_time_ (float): Initial registered time.
         file_source_name_ (string): Original file name reference.
+        word_global_counter (int): Length of original file.
         disk_safe (bool): Flag to either save or not the results in the local disk.
 
     Returns:
@@ -92,7 +95,9 @@ def print_results(exercise_id_, len_word_counter, word_counter_text, init_time_,
     """
     execution_time = TimeM.TimeManager.get_execution_time(init_time_, TimeM.TimeManager.get_time())
 
-    results_to_print = word_counter_text + "Grand Total:\t" +  str(len_word_counter)
+    results_to_print = word_counter_text + "Grand Total (Uniques):\t" +  str(len_word_counter) + "\n"
+    results_to_print = results_to_print + "Grand Total (Original):\t" + str(word_global_counter)
+
     PrintHelp.PrinterHelper.print_results(results_to_print)
     PrintHelp.PrinterHelper.print_time_stamp(execution_time, False)
 
@@ -122,12 +127,12 @@ if __name__ == '__main__':
             f"{CommonFxs.GlobalSettings.RESOURCE_PATH}{file_to_proces}",
             file_folder)
 
-        len_word_counter_ , word_counter_text_ = count_words(file_lines)
+        len_word_counter_ , word_counter_text_, word_global_counter_ = count_words(file_lines)
 
         if len_word_counter_ >= 1:
             file_source_name = file_to_proces.replace(".", "_")
             print_results(EXERCISE_ID, len_word_counter_, word_counter_text_, init_time,
-                          file_source_name, True)
+                          file_source_name,word_global_counter_, True)
 
     else:
         PrintHelp.PrinterHelper.print_help(file_path, file_folder)

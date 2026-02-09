@@ -98,6 +98,7 @@ influences: 1
 kodak: 1
 significance: 1
 coastal: 1
-Grand Total:	99
-Elapsed Execution Time: 0.0007 seconds
+Grand Total (Uniques):	99
+Grand Total (Original):	100
+Elapsed Execution Time: 0.0012 seconds
 ================================================================================
